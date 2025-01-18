@@ -1,0 +1,23 @@
+{
+    "name": "sidcraft/admin",
+    "description": "admin panel for laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sidcraft\\Admin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hiren Bhajgotar"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sidcraft\\Admin\\Providers\\AdminPanelServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
